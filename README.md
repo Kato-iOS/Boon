@@ -8,32 +8,28 @@ This library empowers you to connect to an Ethereum node such as geth to send tr
 
 Boon supports iOS, macOS, tvOS, watchOS.
 
-Example
-For example usage, refer to the repository's tests.
+Why Boon? Here's The Boon Difference!
+Boon has been engineered from the ground up to become your go-to toolkit for your Ethereum ventures. But what makes it stand out in the crowd? Well, we'd like you to meet the four superheroes of Boon - Modularity, Portability, Speed, and Efficiency.
 
-Why Boon?
-While there are some other libraries similar to Boon written in Swift, they might not cater to your specific use-cases due to their limitations.
+Modularity, the Shape-Shifter
+Modularity in Boon is not just a concept, it's our ethos. With Boon, you get to command your own Superhero toolkit. Need just the essentials? The basic Boon package via Swift Package Manager (SPM) has got you covered with fundamental operations such as transaction signing and interacting with an HTTP RPC server.
 
-Boon was created keeping in mind modularity, portability, speed, and efficiency.
+Craving for some advanced power? Just call on additional sidekicks! IPC RPC support, PromiseKit extensions, JSON ABIs parsing for Ethereum Smart Contracts are all just a Swift command away. And if you are yearning for something even more specific, worry not! Our APIs are open-ended, ready for you to expand, tweak and tune as per your unique needs.
 
-Let's take a deeper look into what this means:
+The upshot? Boon is more than just a tool. It's a flexible, customizable partner-in-crime for all your Ethereum adventures.
 
-Modularity
-Boon has been designed with modularity in mind. By installing or using the basic Boon Swift Package Manager (SPM) product, you can access the most fundamental functions such as transaction signing and interacting with an HTTP RPC server.
+Portability, the Multiverse Traveller
+Like the superhero that can be in multiple places at once, Portability lets Boon be available everywhere. Conceived with a dream to seamlessly integrate with Swift Package Manager across platforms, Boon today struts its stuff on iOS, macOS, tvOS, watchOS, and Linux. No matter where your development journey takes you, Boon is always by your side.
 
-Should you want to add support for IPC RPC or anything else, you can simply create a library that depends on Boon and implements the desired functionality. If you wish to use PromiseKit extensions for Boon calls, you can either use the provided PromiseKit SPM product or create your own. To conveniently parse JSON ABIs for Ethereum Smart Contracts, use the provided ABI Parsing SPM product.
+Speed and Efficiency, the Time Lords
+When you are out there, building the future of decentralized applications, every tick of the clock counts. Enter Speed and Efficiency, the twin Time Lords of Boon.
 
-Moreover, if you want to add functionality to Boon not yet provided, you don't have to wait until it gets merged and released in a version bump. You can simply extend or update functionality within your own app as our APIs are open for changes.
+Speed ensures Boon's responses are as swift as a superhero's reflexes. On the other hand, Efficiency guarantees that you get the maximum performance with minimal overhead. And the result? A streamlined development workflow where you focus on crafting awesome DApps, while Boon handles the nitty-gritty of Ethereum interactions.
 
-This makes Boon a flexible and customizable tool for your Ethereum interactions.
+But that's not all. Just like Time Lords, our APIs are thread-safe and built to thrive in highly concurrent environments, ensuring you get optimal performance, all the time, every time.
 
-Portability
-Boon was started with the aim of being used with Swift Package Manager across different platforms. Thus, Boon is available through Swift Package Manager on iOS, macOS, tvOS, watchOS, and Linux.
-
-Speed and Efficiency
-We have aimed to create Boon as a fast and efficient library that streamlines your development workflow, enabling you to focus on building great DAPPS without worrying about the implementation details.
-
-Our APIs are thread-safe and designed for use in highly concurrent applications.
+The Boon Difference - Unleashing Your Inner Superhero
+These four superheroes form the essence of the Boon Difference - a toolkit designed to let you channel your inner superhero, empowering you to create, innovate, and revolutionize the Ethereum ecosystem. So why wait? Unleash your powers with Boon and redefine the future of Ethereum!
 
 Installation
 Boon is compatible with Swift Package Manager v5 (Swift 5 and above). Simply add it to the dependencies in your Package.swift.
