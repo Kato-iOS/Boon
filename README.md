@@ -4,9 +4,9 @@
 
 Boon is a Swift library designed for signing transactions and interacting with Smart Contracts on the Ethereum Network.
 
-This library empowers you to connect to an Ethereum node such as geth or erigon (like Chainnodes) to send transactions and read values from Smart Contracts, eliminating the need to write your own implementations of these protocols.
+This library empowers you to connect to an Ethereum node such as geth to send transactions and read values from Smart Contracts, eliminating the need to write your own implementations of these protocols.
 
-Boon supports iOS, macOS, tvOS, watchOS, and Linux using Swift Package Manager.
+Boon supports iOS, macOS, tvOS, watchOS.
 
 Example
 For example usage, refer to the repository's tests.
